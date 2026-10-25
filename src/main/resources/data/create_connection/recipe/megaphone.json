@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "B  ",
+    "SBB",
+    "B  "
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "S": {
+      "item": "create_connection:speaker"
+    }
+  },
+  "result": {
+    "id": "create_connection:megaphone",
+    "count": 1
+  }
+}

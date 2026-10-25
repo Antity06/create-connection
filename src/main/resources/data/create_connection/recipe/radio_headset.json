@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "WBW",
+    "S S",
+    " M "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:black_wool"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "S": {
+      "item": "create_connection:speaker"
+    },
+    "M": {
+      "item": "create_connection:microphone"
+    }
+  },
+  "result": {
+    "id": "create_connection:radio_headset",
+    "count": 1
+  }
+}

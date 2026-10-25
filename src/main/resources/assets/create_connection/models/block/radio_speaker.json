@@ -1,0 +1,147 @@
+{
+ "parent": "block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "casing": "create:block/andesite_casing",
+  "front": "create_connection:block/radio_speaker_front",
+  "brass": "create:block/brass_block",
+  "particle": "create:block/andesite_casing",
+  "fit_andesite_casing_10x12": "create_connection:block/fit/andesite_casing_10x12",
+  "fit_andesite_casing_10x10": "create_connection:block/fit/andesite_casing_10x10",
+  "fit_radio_speaker_front_10x12": "create_connection:block/fit/radio_speaker_front_10x12"
+ },
+ "elements": [
+  {
+   "from": [
+    3,
+    0,
+    3
+   ],
+   "to": [
+    13,
+    12,
+    13
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fit_radio_speaker_front_10x12",
+     "uv": [
+      0,
+      0,
+      10,
+      12
+     ]
+    },
+    "east": {
+     "texture": "#fit_andesite_casing_10x12",
+     "uv": [
+      0,
+      0,
+      10,
+      12
+     ]
+    },
+    "south": {
+     "texture": "#fit_andesite_casing_10x12",
+     "uv": [
+      0,
+      0,
+      10,
+      12
+     ]
+    },
+    "west": {
+     "texture": "#fit_andesite_casing_10x12",
+     "uv": [
+      0,
+      0,
+      10,
+      12
+     ]
+    },
+    "up": {
+     "texture": "#fit_andesite_casing_10x10",
+     "uv": [
+      0,
+      0,
+      10,
+      10
+     ]
+    },
+    "down": {
+     "texture": "#fit_andesite_casing_10x10",
+     "uv": [
+      0,
+      0,
+      10,
+      10
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    3.5,
+    12,
+    3.5
+   ],
+   "to": [
+    12.5,
+    13,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#brass"
+    },
+    "east": {
+     "texture": "#brass"
+    },
+    "south": {
+     "texture": "#brass"
+    },
+    "west": {
+     "texture": "#brass"
+    },
+    "up": {
+     "texture": "#brass"
+    },
+    "down": {
+     "texture": "#brass"
+    }
+   }
+  },
+  {
+   "from": [
+    3.5,
+    0,
+    2.5
+   ],
+   "to": [
+    12.5,
+    1,
+    3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#brass"
+    },
+    "east": {
+     "texture": "#brass"
+    },
+    "south": {
+     "texture": "#brass"
+    },
+    "west": {
+     "texture": "#brass"
+    },
+    "up": {
+     "texture": "#brass"
+    },
+    "down": {
+     "texture": "#brass"
+    }
+   }
+  }
+ ]
+}

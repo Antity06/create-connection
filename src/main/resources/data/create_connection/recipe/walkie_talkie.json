@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    " R ",
+    "SBM",
+    " E "
+  ],
+  "key": {
+    "R": {
+      "item": "create:transmitter"
+    },
+    "S": {
+      "item": "create_connection:speaker"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "M": {
+      "item": "create_connection:microphone"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "id": "create_connection:walkie_talkie",
+    "count": 1
+  }
+}

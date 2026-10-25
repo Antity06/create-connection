@@ -1,0 +1,107 @@
+{
+ "parent": "block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "gold": "minecraft:block/gold_block",
+  "dark": "minecraft:block/iron_block",
+  "particle": "minecraft:block/gold_block"
+ },
+ "elements": [
+  {
+   "from": [
+    1.5,
+    1.1,
+    2.4
+   ],
+   "to": [
+    2,
+    3.1,
+    5.6
+   ],
+   "faces": {
+    "north": {
+     "texture": "#gold"
+    },
+    "east": {
+     "texture": "#gold"
+    },
+    "south": {
+     "texture": "#gold"
+    },
+    "west": {
+     "texture": "#gold"
+    },
+    "up": {
+     "texture": "#gold"
+    },
+    "down": {
+     "texture": "#gold"
+    }
+   }
+  },
+  {
+   "from": [
+    0.7,
+    1.4,
+    2.7
+   ],
+   "to": [
+    1.5,
+    2.8,
+    5.3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#gold"
+    },
+    "east": {
+     "texture": "#gold"
+    },
+    "south": {
+     "texture": "#gold"
+    },
+    "west": {
+     "texture": "#gold"
+    },
+    "up": {
+     "texture": "#gold"
+    },
+    "down": {
+     "texture": "#gold"
+    }
+   }
+  },
+  {
+   "from": [
+    0.3,
+    1.8,
+    3.5
+   ],
+   "to": [
+    0.7,
+    2.4,
+    4.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#dark"
+    },
+    "east": {
+     "texture": "#dark"
+    },
+    "south": {
+     "texture": "#dark"
+    },
+    "west": {
+     "texture": "#dark"
+    },
+    "up": {
+     "texture": "#dark"
+    },
+    "down": {
+     "texture": "#dark"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,490 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "atlas": "create_connection:item/walkie_atlas",
+    "brass": "create:block/brass_block",
+    "antenna": "create:block/redstone_antenna_powered",
+    "particle": "create_connection:item/walkie_atlas",
+    "overlay": "create_connection:item/walkie_overlay"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        7
+      ],
+      "to": [
+        11,
+        11,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#atlas",
+          "uv": [
+            12,
+            8,
+            16,
+            16
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#atlas",
+          "uv": [
+            8,
+            0,
+            12,
+            16
+          ],
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#atlas",
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#atlas",
+          "uv": [
+            8,
+            0,
+            12,
+            16
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#atlas",
+          "uv": [
+            12,
+            0,
+            16,
+            8
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#atlas",
+          "uv": [
+            12,
+            0,
+            16,
+            8
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "name": "screen_overlay",
+      "from": [
+        5.0,
+        0.0,
+        9.52
+      ],
+      "to": [
+        11.0,
+        11.0,
+        9.52
+      ],
+      "faces": {
+        "south": {
+          "texture": "#overlay",
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4.6,
+        1,
+        7.3
+      ],
+      "to": [
+        5,
+        10,
+        9.2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#atlas",
+          "uv": [
+            8,
+            2,
+            9,
+            14
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#atlas",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#atlas",
+          "uv": [
+            8,
+            2,
+            9,
+            14
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#atlas",
+          "uv": [
+            8,
+            2,
+            12,
+            14
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#atlas",
+          "uv": [
+            8,
+            2,
+            9,
+            3
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#atlas",
+          "uv": [
+            8,
+            2,
+            9,
+            3
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        11,
+        7.6
+      ],
+      "to": [
+        10.5,
+        12.2,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "from": [
+        5.6,
+        11,
+        7.6
+      ],
+      "to": [
+        7.4,
+        11.6,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        18.6,
+        7.75
+      ],
+      "to": [
+        7,
+        19.6,
+        8.75
+      ],
+      "faces": {
+        "up": {
+          "texture": "#antenna",
+          "uv": [
+            1,
+            1,
+            2,
+            2
+          ]
+        }
+      },
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "from": [
+        6,
+        10.6,
+        6.75
+      ],
+      "to": [
+        7,
+        20.6,
+        9.75
+      ],
+      "faces": {
+        "east": {
+          "texture": "#antenna",
+          "uv": [
+            0,
+            0,
+            3,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#antenna",
+          "uv": [
+            0,
+            0,
+            3,
+            10
+          ]
+        }
+      },
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "from": [
+        5,
+        10.6,
+        7.75
+      ],
+      "to": [
+        8,
+        20.6,
+        8.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#antenna",
+          "uv": [
+            0,
+            0,
+            3,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#antenna",
+          "uv": [
+            0,
+            0,
+            3,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#antenna",
+          "uv": [
+            0,
+            9,
+            3,
+            10
+          ]
+        }
+      },
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        20,
+        -35,
+        0
+      ],
+      "translation": [
+        0,
+        -1.5,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        13,
+        7
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -20,
+        0
+      ],
+      "translation": [
+        1.5,
+        3.2,
+        -1
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        20,
+        0
+      ],
+      "translation": [
+        1.5,
+        3.2,
+        -1
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0.5
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0.5
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "gui_light": "front"
+}

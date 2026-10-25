@@ -1,0 +1,124 @@
+{
+ "multipart": [
+  {
+   "when": {
+    "facing": "north",
+    "powered": "false"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker",
+    "y": 0
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "powered": "true"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker_on",
+    "y": 0
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "megaphone": "true"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker_megaphone",
+    "y": 0
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "powered": "false"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "powered": "true"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker_on",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "megaphone": "true"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker_megaphone",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "powered": "false"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "powered": "true"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker_on",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "megaphone": "true"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker_megaphone",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "powered": "false"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "powered": "true"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker_on",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "megaphone": "true"
+   },
+   "apply": {
+    "model": "create_connection:block/radio_speaker_megaphone",
+    "y": 270
+   }
+  }
+ ]
+}

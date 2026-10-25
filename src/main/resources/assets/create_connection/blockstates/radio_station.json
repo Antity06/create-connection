@@ -1,0 +1,36 @@
+{
+ "variants": {
+  "facing=north,online=false": {
+   "model": "create_connection:block/radio_station",
+   "y": 0
+  },
+  "facing=north,online=true": {
+   "model": "create_connection:block/radio_station_on",
+   "y": 0
+  },
+  "facing=east,online=false": {
+   "model": "create_connection:block/radio_station",
+   "y": 90
+  },
+  "facing=east,online=true": {
+   "model": "create_connection:block/radio_station_on",
+   "y": 90
+  },
+  "facing=south,online=false": {
+   "model": "create_connection:block/radio_station",
+   "y": 180
+  },
+  "facing=south,online=true": {
+   "model": "create_connection:block/radio_station_on",
+   "y": 180
+  },
+  "facing=west,online=false": {
+   "model": "create_connection:block/radio_station",
+   "y": 270
+  },
+  "facing=west,online=true": {
+   "model": "create_connection:block/radio_station_on",
+   "y": 270
+  }
+ }
+}

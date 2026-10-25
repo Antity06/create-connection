@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,has_card=false,playing=false": {
+      "model": "create_connection:block/morse_table"
+    },
+    "facing=north,has_card=false,playing=true": {
+      "model": "create_connection:block/morse_table_playing"
+    },
+    "facing=north,has_card=true,playing=false": {
+      "model": "create_connection:block/morse_table_card"
+    },
+    "facing=north,has_card=true,playing=true": {
+      "model": "create_connection:block/morse_table_playing"
+    },
+    "facing=south,has_card=false,playing=false": {
+      "model": "create_connection:block/morse_table",
+      "y": 180
+    },
+    "facing=south,has_card=false,playing=true": {
+      "model": "create_connection:block/morse_table_playing",
+      "y": 180
+    },
+    "facing=south,has_card=true,playing=false": {
+      "model": "create_connection:block/morse_table_card",
+      "y": 180
+    },
+    "facing=south,has_card=true,playing=true": {
+      "model": "create_connection:block/morse_table_playing",
+      "y": 180
+    },
+    "facing=west,has_card=false,playing=false": {
+      "model": "create_connection:block/morse_table",
+      "y": 270
+    },
+    "facing=west,has_card=false,playing=true": {
+      "model": "create_connection:block/morse_table_playing",
+      "y": 270
+    },
+    "facing=west,has_card=true,playing=false": {
+      "model": "create_connection:block/morse_table_card",
+      "y": 270
+    },
+    "facing=west,has_card=true,playing=true": {
+      "model": "create_connection:block/morse_table_playing",
+      "y": 270
+    },
+    "facing=east,has_card=false,playing=false": {
+      "model": "create_connection:block/morse_table",
+      "y": 90
+    },
+    "facing=east,has_card=false,playing=true": {
+      "model": "create_connection:block/morse_table_playing",
+      "y": 90
+    },
+    "facing=east,has_card=true,playing=false": {
+      "model": "create_connection:block/morse_table_card",
+      "y": 90
+    },
+    "facing=east,has_card=true,playing=true": {
+      "model": "create_connection:block/morse_table_playing",
+      "y": 90
+    }
+  }
+}

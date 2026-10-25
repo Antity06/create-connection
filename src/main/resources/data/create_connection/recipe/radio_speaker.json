@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "S",
+    "C",
+    "T"
+  ],
+  "key": {
+    "S": {
+      "item": "create_connection:speaker"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "id": "create_connection:radio_speaker",
+    "count": 1
+  }
+}

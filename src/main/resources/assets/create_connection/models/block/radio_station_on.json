@@ -1,0 +1,270 @@
+{
+ "parent": "block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "casing": "create:block/brass_casing",
+  "front": "create_connection:block/radio_station_front_on",
+  "top": "create:block/andesite_casing",
+  "brass": "create:block/brass_block",
+  "antenna": "create:block/redstone_antenna_powered",
+  "particle": "create:block/brass_casing",
+  "fit_brass_casing_14x13": "create_connection:block/fit/brass_casing_14x13",
+  "fit_brass_casing_14x14": "create_connection:block/fit/brass_casing_14x14",
+  "fit_andesite_casing_12x12": "create_connection:block/fit/andesite_casing_12x12",
+  "fit_radio_station_front_on_14x13": "create_connection:block/fit/radio_station_front_on_14x13"
+ },
+ "elements": [
+  {
+   "from": [
+    1,
+    0,
+    1
+   ],
+   "to": [
+    15,
+    13,
+    15
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fit_radio_station_front_on_14x13",
+     "uv": [
+      0,
+      0,
+      14,
+      13
+     ]
+    },
+    "east": {
+     "texture": "#fit_brass_casing_14x13",
+     "uv": [
+      0,
+      0,
+      14,
+      13
+     ]
+    },
+    "south": {
+     "texture": "#fit_brass_casing_14x13",
+     "uv": [
+      0,
+      0,
+      14,
+      13
+     ]
+    },
+    "west": {
+     "texture": "#fit_brass_casing_14x13",
+     "uv": [
+      0,
+      0,
+      14,
+      13
+     ]
+    },
+    "up": {
+     "texture": "#fit_brass_casing_14x14",
+     "uv": [
+      0,
+      0,
+      14,
+      14
+     ]
+    },
+    "down": {
+     "texture": "#fit_brass_casing_14x14",
+     "uv": [
+      0,
+      0,
+      14,
+      14
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    2,
+    13,
+    2
+   ],
+   "to": [
+    14,
+    14,
+    14
+   ],
+   "faces": {
+    "north": {
+     "texture": "#top"
+    },
+    "east": {
+     "texture": "#top"
+    },
+    "south": {
+     "texture": "#top"
+    },
+    "west": {
+     "texture": "#top"
+    },
+    "up": {
+     "texture": "#fit_andesite_casing_12x12",
+     "uv": [
+      0,
+      0,
+      12,
+      12
+     ]
+    },
+    "down": {
+     "texture": "#fit_andesite_casing_12x12",
+     "uv": [
+      0,
+      0,
+      12,
+      12
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    10.5,
+    14,
+    10.5
+   ],
+   "to": [
+    13.5,
+    15,
+    13.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#brass"
+    },
+    "east": {
+     "texture": "#brass"
+    },
+    "south": {
+     "texture": "#brass"
+    },
+    "west": {
+     "texture": "#brass"
+    },
+    "up": {
+     "texture": "#brass"
+    },
+    "down": {
+     "texture": "#brass"
+    }
+   }
+  },
+  {
+   "from": [
+    11.5,
+    22,
+    11.5
+   ],
+   "to": [
+    12.5,
+    23,
+    12.5
+   ],
+   "faces": {
+    "up": {
+     "texture": "#antenna",
+     "uv": [
+      1,
+      1,
+      2,
+      2
+     ]
+    }
+   },
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15
+   }
+  },
+  {
+   "from": [
+    11.5,
+    14,
+    10.5
+   ],
+   "to": [
+    12.5,
+    24,
+    13.5
+   ],
+   "faces": {
+    "east": {
+     "texture": "#antenna",
+     "uv": [
+      0,
+      0,
+      3,
+      10
+     ]
+    },
+    "west": {
+     "texture": "#antenna",
+     "uv": [
+      0,
+      0,
+      3,
+      10
+     ]
+    }
+   },
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15
+   }
+  },
+  {
+   "from": [
+    10.5,
+    14,
+    11.5
+   ],
+   "to": [
+    13.5,
+    24,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#antenna",
+     "uv": [
+      0,
+      0,
+      3,
+      10
+     ]
+    },
+    "south": {
+     "texture": "#antenna",
+     "uv": [
+      0,
+      0,
+      3,
+      10
+     ]
+    },
+    "down": {
+     "texture": "#antenna",
+     "uv": [
+      0,
+      9,
+      3,
+      10
+     ]
+    }
+   },
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15
+   }
+  }
+ ]
+}

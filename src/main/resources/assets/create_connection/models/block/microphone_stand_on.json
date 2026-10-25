@@ -1,0 +1,413 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "rod": "create_connection:block/fit/microphone_stand_rod",
+    "particle": "create:block/brass_block"
+  },
+  "elements": [
+    {
+      "name": "rod_shaft",
+      "from": [
+        7.0,
+        0.0,
+        7.0
+      ],
+      "to": [
+        9.0,
+        10.5,
+        9.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            0,
+            4,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            0,
+            4,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            0,
+            4,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            0,
+            4,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#rod",
+          "uv": [
+            4,
+            0,
+            8,
+            4
+          ]
+        },
+        "down": {
+          "texture": "#rod",
+          "uv": [
+            4,
+            0,
+            8,
+            4
+          ],
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "rod_head_base",
+      "from": [
+        6.0,
+        10.5,
+        6.0
+      ],
+      "to": [
+        10.0,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            13,
+            8,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            13,
+            8,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            13,
+            8,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            13,
+            8,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#rod",
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ]
+        },
+        "down": {
+          "texture": "#rod",
+          "uv": [
+            8,
+            8,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "socket_rim_north",
+      "from": [
+        6.0,
+        13.0,
+        6.0
+      ],
+      "to": [
+        10.0,
+        14.0,
+        6.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            12,
+            8,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#rod",
+          "uv": [
+            6,
+            12,
+            8,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#rod",
+          "uv": [
+            4,
+            4,
+            8,
+            5
+          ]
+        },
+        "west": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            12,
+            2,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#rod",
+          "uv": [
+            8,
+            0,
+            16,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "socket_rim_south",
+      "from": [
+        6.0,
+        13.0,
+        9.25
+      ],
+      "to": [
+        10.0,
+        14.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rod",
+          "uv": [
+            4,
+            4,
+            8,
+            5
+          ]
+        },
+        "east": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            12,
+            2,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#rod",
+          "uv": [
+            0,
+            12,
+            8,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#rod",
+          "uv": [
+            6,
+            12,
+            8,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#rod",
+          "uv": [
+            8,
+            6,
+            16,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "name": "socket_rim_west",
+      "from": [
+        6.0,
+        13.0,
+        6.75
+      ],
+      "to": [
+        6.75,
+        14.0,
+        9.25
+      ],
+      "faces": {
+        "east": {
+          "texture": "#rod",
+          "uv": [
+            4,
+            4,
+            8,
+            5
+          ]
+        },
+        "west": {
+          "texture": "#rod",
+          "uv": [
+            2,
+            12,
+            6,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#rod",
+          "uv": [
+            8,
+            2,
+            10,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "socket_rim_east",
+      "from": [
+        9.25,
+        13.0,
+        6.75
+      ],
+      "to": [
+        10.0,
+        14.0,
+        9.25
+      ],
+      "faces": {
+        "east": {
+          "texture": "#rod",
+          "uv": [
+            2,
+            12,
+            6,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#rod",
+          "uv": [
+            4,
+            4,
+            8,
+            5
+          ]
+        },
+        "up": {
+          "texture": "#rod",
+          "uv": [
+            14,
+            2,
+            16,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "socket_pin",
+      "from": [
+        7.5,
+        13.0,
+        7.5
+      ],
+      "to": [
+        8.5,
+        13.6,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rod",
+          "uv": [
+            5,
+            5,
+            7,
+            6
+          ]
+        },
+        "east": {
+          "texture": "#rod",
+          "uv": [
+            5,
+            5,
+            7,
+            6
+          ]
+        },
+        "south": {
+          "texture": "#rod",
+          "uv": [
+            5,
+            5,
+            7,
+            6
+          ]
+        },
+        "west": {
+          "texture": "#rod",
+          "uv": [
+            5,
+            5,
+            7,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#rod",
+          "uv": [
+            5,
+            5,
+            7,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

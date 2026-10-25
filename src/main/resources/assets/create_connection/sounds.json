@@ -1,0 +1,38 @@
+{
+  "radio.static": {
+    "subtitle": "subtitles.create_connection.radio.static",
+    "sounds": [
+      {
+        "name": "create_connection:radio_static",
+        "volume": 0.4
+      }
+    ]
+  },
+  "phone.chirp": {
+    "subtitle": "subtitles.create_connection.phone.chirp",
+    "sounds": [
+      {
+        "name": "create_connection:phone_chirp",
+        "volume": 0.7
+      }
+    ]
+  },
+  "phone.bell": {
+    "subtitle": "subtitles.create_connection.phone.bell",
+    "sounds": [
+      {
+        "name": "create_connection:phone_bell",
+        "volume": 0.9
+      }
+    ]
+  },
+  "morse.tone": {
+    "subtitle": "subtitles.create_connection.morse.tone",
+    "sounds": [
+      {
+        "name": "create_connection:morse_tone",
+        "volume": 0.72
+      }
+    ]
+  }
+}

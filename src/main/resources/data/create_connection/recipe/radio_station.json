@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " A ",
+    "SBM",
+    "TPT"
+  ],
+  "key": {
+    "A": {
+      "item": "create:transmitter"
+    },
+    "S": {
+      "item": "create_connection:speaker"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "M": {
+      "item": "create_connection:microphone"
+    },
+    "T": {
+      "item": "powergrid:triode"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "create_connection:radio_station",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "create_connection:home_phone",
+    "create_connection:payphone",
+    "create_connection:radio_station",
+    "create_connection:radio_speaker",
+    "create_connection:microphone_stand",
+    "create_connection:radio",
+    "create_connection:service_phone",
+    "create_connection:morse_signaler",
+    "create_connection:morse_table"
+  ]
+}

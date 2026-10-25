@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " E ",
+    "PHP"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "P": {
+      "item": "create:cardboard"
+    },
+    "H": {
+      "item": "create_connection:home_phone"
+    }
+  },
+  "result": {
+    "id": "create_connection:service_phone",
+    "count": 1
+  }
+}

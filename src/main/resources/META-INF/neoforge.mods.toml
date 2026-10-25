@@ -1,0 +1,56 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="create_connection"
+version="0.5.0-beta"
+displayName="Create: Connection"
+authors="CoolnyDude3000"
+description='''Связь для Create: проводные телефоны на Power Grid, радио, рации и радиостанции через радары, мегафоны.'''
+logoFile="create_connection.png"
+
+[[mixins]]
+config="create_connection.mixins.json"
+
+[[dependencies.create_connection]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_connection]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.21.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_connection]]
+    modId="create"
+    type="required"
+    versionRange="[6.0.10,6.1.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.create_connection]]
+    modId="powergrid"
+    type="required"
+    versionRange="[0.6.2,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.create_connection]]
+    modId="create_radar"
+    type="required"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.create_connection]]
+    modId="voicechat"
+    type="optional"
+    versionRange="[1.21.1-2.6.0,)"
+    ordering="AFTER"
+    side="BOTH"

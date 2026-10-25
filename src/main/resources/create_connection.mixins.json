@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.createconnection.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockEntityConfigurationPacketMixin",
+    "SmartBlockEntityMixin",
+    "StockKeeperCategoryMenuMixin",
+    "RadarScanningBlockBehaviorMixin",
+    "RadarTrackColorMixin",
+    "DetectionConfigMixin"
+  ],
+  "client": [
+    "LogisticalStockResponsePacketMixin",
+    "StockKeeperRequestMenuMixin",
+    "StockKeeperRequestScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "create_connection:radio_headset"
+    },
+    "D": {
+      "item": "create_radar:data_link"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "create_connection:radio_station"
+    }
+  },
+  "pattern": [
+    " H ",
+    "LSL",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connection:portable_station"
+  }
+}

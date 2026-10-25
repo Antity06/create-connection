@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "walkie_talkie_dye",
+  "ingredients": [
+    {
+      "item": "create_connection:walkie_talkie"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connection:walkie_talkie",
+    "components": {
+      "create_connection:walkie_color": 2
+    }
+  }
+}

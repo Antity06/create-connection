@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " G ",
+    "BHB",
+    " B "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "H": {
+      "item": "create_connection:home_phone"
+    }
+  },
+  "result": {
+    "id": "create_connection:payphone",
+    "count": 1
+  }
+}

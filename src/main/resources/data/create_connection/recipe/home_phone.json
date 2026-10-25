@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "MCS",
+    "AAA"
+  ],
+  "key": {
+    "M": {
+      "item": "create_connection:microphone"
+    },
+    "C": {
+      "item": "powergrid:copper_coil"
+    },
+    "S": {
+      "item": "create_connection:speaker"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "create_connection:home_phone",
+    "count": 1
+  }
+}

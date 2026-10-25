@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "create_connection:radio_station"
+    },
+    {
+      "item": "create_connection:radio_headset"
+    },
+    {
+      "item": "create_radar:data_link"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connection:portable_station"
+  }
+}

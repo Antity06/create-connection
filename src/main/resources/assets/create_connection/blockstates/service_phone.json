@@ -1,0 +1,20 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "create_connection:block/service_phone",
+   "y": 0
+  },
+  "facing=east": {
+   "model": "create_connection:block/service_phone",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "create_connection:block/service_phone",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "create_connection:block/service_phone",
+   "y": 270
+  }
+ }
+}
